@@ -17,6 +17,9 @@ namespace DTcms.Web
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             //RegisterView();//(不使用area的时候用于区分前后台路由)
+            
+            
+            
         }
 
         protected void RegisterView()
